@@ -1,0 +1,12 @@
+{% extends 'Products/base.html' %}
+
+{% block content %}
+    <div class="container">
+        {% for events in about %}
+            <h3>{{ events.title}}</h3>
+            <p>{{ events.content}}</p>
+            <h3>{{ events.faq_title }}</h3>
+            <p>{{ events.faq }}</p>
+        {% endfor %}
+    </div>
+{% endblock content %}
