@@ -14,6 +14,7 @@ class Review(models.Model):
 
 class Product(models.Model):
     title = models.CharField(max_length=100)
+    pic = models.ImageField(default='default.jpg',upload_to= 'product_pics')
     description = models.TextField()
     price = models.DecimalField(max_digits=100, decimal_places=2)
     in_stock = models.DecimalField(max_digits=100,decimal_places=0)

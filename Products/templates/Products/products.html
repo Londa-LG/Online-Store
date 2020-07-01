@@ -3,52 +3,60 @@
 {% block content %}
     <div class="container">
         <div class="row">
-        {% for events in products01 %}
-            <div class="col m12 l4">
-                <div class="card">
-                    <div class="card-content">
-                        <span class="card-title">{{events.title}}</span>
-                        <p>{{events.description}}</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="{{ events.get_absolute_url }}" >View Product</a>
+            {% for events in products03 %}
+                <div class="col m12 l4">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="image-class">
+                                    <img class="responsive-img" src="{{ events.pic.url }}" alt="product image">
+                            </div>
+                            <span class="card-title green-text accent-4">{{events.price}}</span>
+                            <p>{{events.title}}</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="{{ events.get_absolute_url }}" >View Product</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        {% endfor %}
+            {% endfor %}
         </div>
 
         <div class="row">
-        {% for events in products02 %}
-            <div class="col m12 l4">
-                <div class="card">
-                    <div class="card-content">
-                        <span class="card-title">{{events.title}}</span>
-                        <p>{{events.description}}</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="{{ events.get_absolute_url }}" >View Product</a>
+            {% for events in products02 %}
+                <div class="col m12 l4">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="image-class">
+                                    <img class="responsive-img" src="{{ events.pic.url }}" alt="product image">
+                            </div>
+                            <span class="card-title green-text accent-4">{{events.price}}</span>
+                            <p>{{events.title}}</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="{{ events.get_absolute_url }}" >View Product</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        {% endfor %}
+            {% endfor %}
         </div>
 
         <div class="row">
-        {% for events in products03 %}
-            <div class="col m12 l4">
-                <div class="card">
-                    <div class="card-content">
-                        <span class="card-title">{{events.title}}</span>
-                        <p>{{events.description}}</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="{{ events.get_absolute_url }}" >View Product</a>
+            {% for events in products01 %}
+                <div class="col m12 l4">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="image-class">
+                                    <img class="responsive-img" src="{{ events.pic.url }}" alt="product image">
+                            </div>
+                            <span class="card-title green-text accent-4">{{events.price}}</span>
+                            <p>{{events.title}}</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="{{ events.get_absolute_url }}" >View Product</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        {% endfor %}
+            {% endfor %}
         </div>
-
     </div>
 {% endblock %}

@@ -7,7 +7,7 @@
     <div class="slider">
             <ul class="slides">
                 <li>
-                    <img src="{% static 'Products/editors-keys-CtDrd7mWW6M-unsplash.jpg' %}"> <!-- image -->
+                    <img src="{% static 'Products/nihonorway-graphy-nCvi-gS5r88-unsplash.jpg' %}"> <!-- image -->
                     <div class="caption center-align">
                       <h3>Cherry ms switches</h3>
                       <h5 class="light grey-text text-lighten-3 hide-on-small-only">Here's
@@ -15,7 +15,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="{% static 'Products/kevin-bhagat-4e-308oN_mQ-unsplash.jpg' %}"> <!-- image -->
+                    <img src="{% static 'Products/roman-synkevych-RKWPPigVMqo-unsplash.jpg' %}"> <!-- image -->
                     <div class="caption left-align">
                       <h3>Style your tech</h3>
                       <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
@@ -32,18 +32,21 @@
     </div>
 
 <!-- The rows of Products -->
-    <div class="row green accent-4">
+    <div class="row">
         <div class="container">
             <h3 class="center white-text"><u>Featured Items</u></h3>
             {% for items in products01 %}
                 <div class="col m12 l4">
                     <div class="card">
                         <div class="card-content">
-                            <span class="card-title">{{items.title}}</span>
-                            <p>{{items.description}}</p>
+                            <div class="image-class">
+                                <img class="responsive-img" src="{{ items.pic.url }}" alt="product image">
+                            </div>
+                            <span class="card-title green-text accent-4">{{items.price}}</span>
+                            <p>{{items.title}}</p>
                         </div>
                         <div class="card-action">
-                            <a href="" >View Product</a>
+                            <a href="{{ items.get_absolute_url }}" >View Product</a>
                         </div>
                     </div>
                 </div>
@@ -52,13 +55,13 @@
     </div>
 
 <!-- Good Review section -->
-    <div class="row">
+    <div class="row green accent-4">
         <div class="container">
-            <h3 class="center white-text"><u>Our Customers say</u></h3>
+            <h3 class="center white-text">Our Customers say</h3>
             {% for words in reviews %}
                 <div class="col m12 l4">
-                    <p>"{{ words.review }}"</p>
-                    <p>-{{ words.name}}</p>
+                    <p class="white-text center-align">"{{ words.review }}"</p>
+                    <p class="white-text center-align">-{{ words.name}}</p>
                 </div>
             {% endfor %}
         </div>
@@ -91,10 +94,10 @@
         <div class="col m12 l6">
             <div class="container">
                 <h4>Lorem ipsum</h4>
-                <p>dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-                    dolor.Aenean massa.Cum sociis natoque penatibus et</p>
+                <p> dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                    dolor.Aenean massa.Cum sociis natoque penatibus et </p>
             </div>
         </div>
     </div>
 
-  {% endblock %}
+{% endblock %}

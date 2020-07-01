@@ -4,15 +4,26 @@
     {% for items in product %}
         <div class="container">
             <div class="row">
-                <div class="col m12 l6"><p>the pic area</p></div>
+                <div class="col m12 l6">
+                    <img src="{{items.pic.url}}" class="responsive-img" alt="product image">
+                </div>
                 <div class="col m12 l6">
                     <h3>{{ items.title }}</h3>
                     <p>{{ items.description }}</p>
                 </div>
             </div>
-
             <div class="row">
-                <p>other projects you might like</p>
+                <div class="col m12 l6 push-l9">
+                    <div class="container">
+                        <a href="#end" class="btn green accent-4 modal-trigger">Buy now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal" id="end">
+                <div class="modal-content">
+                    <h3>End of Demo</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, minus!</p>
+                </div>
             </div>
         </div>
     {% endfor %}
