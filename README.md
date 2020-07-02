@@ -24,11 +24,11 @@ Mouse & Keyboard is an online store that sells Mouses and Keyboards
  ## User Stories
  * A customer user can:
   1. Navigate the website
-  2. Sellect items
+  2. Select items
   
  * An employee user can:
   1. Access the admin page
-  2. Change prices,Upload different photo's,
+  2. Change prices, Upload different photo's.
   
   ## Future Features
  1. Product Review section (I'd like to make leaving a product review an option)
