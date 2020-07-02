@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dzOhQbG8Ic8et97wPizZiHPfqM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Vacation-finder/TravelAgency" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -39,10 +42,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1593594929753">
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1593686936507">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1593594929753" />
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1593686936507" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1593683278902">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1593683278902" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
