@@ -36,3 +36,18 @@ Mouse & Keyboard is an online store that sells Mouses and Keyboards
  
  ## Dependencies
   * Django
+## Screenshots
+## Large Screens
+![](Screenshot(28).png)
+
+![](Screenshot(29).png)
+
+![](Screenshot(30).png)
+## Small Screens
+![](Screenshot_2020-07-03-19-25-56(2).png)
+
+![](Screenshot_2020-07-03-19-37-2(2).png)
+
+![](Screenshot_2020-07-03-19-37-36(2).png)
+
+![](Screenshot_2020-07-03-19-37-47(2).png)
