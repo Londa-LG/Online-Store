@@ -36,4 +36,3 @@ Mouse & Keyboard is an online store that sells Mouses and Keyboards
  
  ## Dependencies
   * Django
-  * Pillow
